@@ -10,4 +10,4 @@ To save the resulting vector of queries one uses the lapply command to write eac
 The second progam is written in Matlab. The program reads the text file produced by protontologies and takes only the first part of the 
 information returend by the blastp query that corresponds to the protein and species. It does this by finding the first appearance of the
 ">", and collects all of the characters that appear before that symbol (the protein and species names). The program then writes 
-this information into a new text file where each amino acid chain's protein and spcies occupy their own line. 
+this information into a new text file where each amino acid chain's protein and species occupy their own line. 
